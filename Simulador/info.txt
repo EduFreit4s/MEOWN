@@ -1,0 +1,11 @@
+https://meown-engine.herokuapp.com/ | https://git.heroku.com/meown-engine.git
+
+heroku pass - #Star34483/
+
+##ritual heroku
+
+heroku git:remote -a meown-engine
+git init .
+git add .
+git commit -m "sim"
+git push heroku master
