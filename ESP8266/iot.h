@@ -41,7 +41,7 @@ class IOT {
     public:
 
         IOT(const char* ssid, const char* key);
-        bool webStart();
+        bool wifi();
         void spy(STATS temp);
         bool getAction();
 

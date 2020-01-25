@@ -41,13 +41,14 @@ IOT iot(WIFI, SENHA);
 
 void setup() {
   Serial.begin(115200);
-  while(!iot.webStart());
+  while(!iot.wifi());
   Engine.setSpeed(15);
   Info.setAlturaComedouro(getComedouro());
   cota_diaria = GATOS*PORCAO;
 }
 
 void loop() {
+  
   Info.lerSensores(getResevatorio(), getComedouro());
   iot.spy(Info);
   iot.web(Info);

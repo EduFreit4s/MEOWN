@@ -12,7 +12,7 @@ IOT::IOT(const char* ssid,const char* key){
     _PASS = key;
 }
 
-bool IOT::webStart(){
+bool IOT::wifi(){
 
     WiFi.begin(_SSID, _PASS);
     delay(5000);
@@ -66,9 +66,10 @@ void IOT::web(STATS temp){
 
   String webjson = "{" + COMIDA + String(nivel) + "," + VEZES + String(vezes) + "," + TEMPO + String(tempo) + "}";  
 
+    
     _http.begin(SERVIDOR); 
     _http.addHeader("Content-Type", "application/json"); 
-    _http.POST(webjson); 
+    _http.POST("{\"COMIDA\":10}"); 
     _http.end();  
 }
 
