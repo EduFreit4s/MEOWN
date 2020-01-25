@@ -33,17 +33,9 @@ A composição nutricional da maioria das rações para pets que circulam no com
 
 Dessarte, foi pensado um modo que possibilite um gerenciamento adequado das porções, as quais sejam planejadas de acordo com um intervalo de tempo já estabelecido, a presença felina e a quantidade de refeições, sendo todos esses requisitos ideais para manter o bem estar da saúde do bichano.
 ## Manual do Usuário
-O intuito principal do projeto é que o Meown possa ter acesso a informações do tempo levado para consumir o alimento, a quantidade de ração presente no tanque interior e as vezes que o pet comeu a partir da presença do animal perto do hardware por um sensor ultrassônico. Para acompanhar essas informações, foi disponibilizado um [site](http://meown-engine.herokuapp.com/), no qual haverá acesso a esses respectivos dados para realizar o acompanhanmento direto e via web.
+O intuito principal do projeto é que o Meown possa ter acesso a informações do tempo levado para consumir o alimento, a quantidade de ração presente no tanque interior e as vezes que o pet comeu a partir da presença do animal perto do hardware por um sensor ultrassônico. Para acompanhar essas informações, foi disponibilizado um [site](http://meown-engine.herokuapp.com/), no qual haverá acesso a esses respectivos dados para realizar o acompanhanmento direto via web.
 ### Como funciona o Meown
 O Meown é uma estrutura de madeira com uma tampa, para colocar a ração no tanque, que possui um sensor de presença ultrassônico do animal e, interiomente uma catraca para regular as porções de ração e uma rampa por qual a comida irá escorrer no pote de alimentação do pet.
-
-Estas são as figuras que representam as medições do projeto em centímetros, cm:
-![Figura 1. Base;](https://github.com/AnneSaint/Meown/blob/master/base.jpg)
-Figura 1. Base e estrutura básica da catraca
-![Figura 2. Rampa](https://github.com/AnneSaint/Meown/blob/master/rampas.jpg)
-Figura 2. Rampa
-![Figura 3. Paredes](https://github.com/AnneSaint/Meown/blob/master/paredes.jpg)
-Figura 3. Paredes
 
 Por dentro, o mecanismo de catraca será acionado, assim rotacionando o mecanismo em 90° e liberando pela rampa uma quantidade aproximada de 32 gramas de ração no pote. Desse modo, essa condição só será verdadeira caso o intervalo de tempo de horas, definidos anteriomente existir entre as refeições, já que esse é o período ideal para não haver complicações na saúde do animal.
 
