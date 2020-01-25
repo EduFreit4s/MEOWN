@@ -41,7 +41,7 @@ IOT iot(WIFI, SENHA);
 
 void setup() {
   Serial.begin(115200);
-  iot.webStart();
+  while(!iot.webStart());
   Engine.setSpeed(15);
   Info.setAlturaComedouro(getComedouro());
   cota_diaria = GATOS*PORCAO;

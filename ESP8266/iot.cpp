@@ -15,7 +15,7 @@ IOT::IOT(const char* ssid,const char* key){
 bool IOT::webStart(){
 
     WiFi.begin(_SSID, _PASS);
-    delay(2000);
+    delay(5000);
 
     if(WiFi.status() != WL_CONNECTED){
       return false;
@@ -55,7 +55,7 @@ String IOT::serial(STATS temp){
   int vezes = temp.getVezes();
   int tempo = temp.getTempo();
 
-  return "{" + COMIDA + String(nivel) + VEZES + String(vezes) + "," + TEMPO + String(tempo) + "}";  
+  return "{" + COMIDA + String(nivel) + "," + VEZES + String(vezes) + "," + TEMPO + String(tempo) + "}";  
 }
 
 void IOT::web(STATS temp){
@@ -64,7 +64,7 @@ void IOT::web(STATS temp){
   int vezes = temp.getVezes();
   int tempo = temp.getTempo();
 
-  String webjson = "{" + COMIDA + String(nivel) + VEZES + String(vezes) + "," + TEMPO + String(tempo) + "}";  
+  String webjson = "{" + COMIDA + String(nivel) + "," + VEZES + String(vezes) + "," + TEMPO + String(tempo) + "}";  
 
     _http.begin(SERVIDOR); 
     _http.addHeader("Content-Type", "application/json"); 

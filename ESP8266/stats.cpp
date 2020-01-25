@@ -64,5 +64,5 @@ int STATS::getVezes(){
 }
 
 int STATS::getTempo(){
-  return _tempo * 0.01666666667;
+  return _tempo;
 }
