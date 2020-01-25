@@ -44,10 +44,6 @@ void IOT::tradutor(String spy){
     }
 }
 
-void IOT::setModeFalse(){
-  _mode = false;
-}
-
 
 String IOT::serial(STATS temp){
   
@@ -69,7 +65,7 @@ void IOT::web(STATS temp){
     
     _http.begin(SERVIDOR); 
     _http.addHeader("Content-Type", "application/json"); 
-    _http.POST("{\"COMIDA\":10}"); 
+    _http.POST(webjson); 
     _http.end();  
 }
 

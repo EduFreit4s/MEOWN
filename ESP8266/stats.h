@@ -20,9 +20,7 @@ class STATS {
       void setVezes(float comedouro);
       void setTempo(float comedouro);
       void setAlturaComedouro(float comedouro);
-      void resetInfo();
-      
-      
+      void resetInfo();      
       
       float getAlturaComedoro();
       
@@ -40,8 +38,6 @@ class STATS {
       unsigned long tmM = 0;      
      
 };
-
-
 
 
 #endif
