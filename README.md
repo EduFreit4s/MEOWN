@@ -85,10 +85,23 @@ Por último, o site registra quantas vezes o animal se alimentou pelo número de
 ![Figura 11. Interface mostrando todos os dados coletados](https://github.com/AnneSaint/Meown/blob/master/heroku_meown_todasconexoes.png)
 
 Figura 11. Interface mostrando todos os dados coletados
-## Informações Técnicas 
+
 ### Materiais
 * ENodeMCU 12E ESP8266
 * Dois Sensores Ultrassõnico HC-SR04
 * Motor de Passos
-### Circuito
+* Madeira e fios
+
 ### Página Web
+
+[site](http://meown-engine.herokuapp.com)
+
+## informações adicionais
+
+-   Autores: Antonio Batista, Eduardo Freitas
+-   Estudantes do IFPB - Campus João Pessoa
+-   Curso: Bacharelado em Engenharia Elétrica
+-   Disciplina: Técnicas de Programação
+-   Email:  [batistasantosanneto@gmail.com](mailto:batistasantosanneto@gmail.com)
+-   Email:  [freitas.eduardo@academico.ifpb.edu.br](mailto:freitas.eduardo@academico.ifpb.edu.br)
+
