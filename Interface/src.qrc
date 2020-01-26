@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/src/img">
+        <file>connexao_image.jpg</file>
+        <file>estatisticas_image.jpg</file>
+        <file>home_image.png</file>
+        <file>sobre_image.jpg</file>
+        <file>edu.png</file>
+        <file>neto.png</file>
+    </qresource>
+</RCC>

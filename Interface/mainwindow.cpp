@@ -77,8 +77,35 @@ void MainWindow::on_btnAction_clicked()
     qDebug() << action;
 
     if(action){
+        ui->btnAction->setText("Desativar alimentação manual");
         serial.write("{\"ACAO\": 1}");
     }else{
+        ui->btnAction->setText("Ativar alimentação manual");
         serial.write("{\"ACAO\": 0}");
     }
+}
+
+void MainWindow::on_btnEmailEdu_clicked()
+{
+    QUrl email = QUrl("mailto:freitas.eduardo@academico.ifpb.edu.br");
+    QDesktopServices::openUrl(email);
+}
+
+
+void MainWindow::on_btnEmailNeto_clicked()
+{
+    QUrl email = QUrl("mailto:neto.batista@academico.ifpb.edu.br");
+    QDesktopServices::openUrl(email);
+}
+
+void MainWindow::on_btnGithub_clicked()
+{
+    QUrl github = QUrl("https://github.com/EduFreit4s/Meown");
+    QDesktopServices::openUrl(github);
+}
+
+void MainWindow::on_btnSite_clicked()
+{
+    QUrl github = QUrl("https://meown-engine.herokuapp.com/");
+    QDesktopServices::openUrl(github);
 }

@@ -8,6 +8,9 @@
 #include <QJsonDocument>
 #include <QJsonObject>
 
+#include <QDesktopServices>
+#include <QUrl>
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
@@ -33,6 +36,14 @@ private slots:
     void on_btnPlug_clicked();
 
     void on_btnAction_clicked();
+
+    void on_btnEmailEdu_clicked();
+
+    void on_btnEmailNeto_clicked();
+
+    void on_btnGithub_clicked();
+
+    void on_btnSite_clicked();
 
 private:
     Ui::MainWindow *ui;
