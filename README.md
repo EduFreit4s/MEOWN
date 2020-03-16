@@ -1,12 +1,10 @@
 # Meown - Alimentador Inteligente para Pets
 
-![Nicolas Ribeiro](https://github.com/EduFreit4s/Meown/blob/master/Imagens/meown.png)
-
 Projeto da 3ª avaliação da disciplina de Técnicas de Programação 2019.2
-
 Aplicação do Meown com a framework Qt e o microcontrolador NodeMCU 12E ESP8266.
-
 Feito por [Eduardo Freitas](https://github.com/EduFreit4s) e [Anne](https://github.com/AnneSaint)
+
+![Nicolas Ribeiro](https://github.com/EduFreit4s/Meown/blob/master/Imagens/meown.png)
 
 ## Sumário 
 * [Sobre o Meown](https://github.com/AnneSaint/Meown/blob/master/README.md#sobre-meown)
