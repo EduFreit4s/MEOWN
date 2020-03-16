@@ -1,5 +1,6 @@
 # Meown - Alimentador Inteligente para Pets
 
+![Nicolas Ribeiro](https://github.com/EduFreit4s/Meown/blob/master/Imagens/meown.png)
 
 Projeto da 3ª avaliação da disciplina de Técnicas de Programação 2019.2
 
